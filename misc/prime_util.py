@@ -7,4 +7,4 @@ def isPrimeNumber(inputNumInt):
         if inputNumInt % n == 0:
             isPrime = False
             break
-    return isPrimeNumber
+    return isPrime
