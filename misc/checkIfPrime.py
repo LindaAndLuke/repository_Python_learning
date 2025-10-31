@@ -29,4 +29,3 @@ for n in range(2, inPutNumInt//2+1):
 if not notPrime:
     # if no divisors found, it is prime
     print(f"{inPutNumInt} is a prime number.")
-
