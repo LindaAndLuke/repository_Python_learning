@@ -17,3 +17,14 @@ def get_prime_factors(number):
             prime_factors.append(n)
             number //= n
     return prime_factors
+
+# Check if an input string is a positive int number
+def isPositiveIntNumber(inputStr):
+    try:
+        val = int(inputStr)
+        if val > 0:
+            return True
+        else:
+            return False
+    except ValueError:
+        return False
